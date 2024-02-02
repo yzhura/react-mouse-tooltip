@@ -1,6 +1,6 @@
 {
   "name": "react-mouse-tooltip",
-  "private": true,
+  "private": false,
   "version": "1.0.0",
   "type": "module",
   "scripts": {
@@ -14,10 +14,9 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
-  "author": "@yzhura",
-  "license": "MIT",
   "devDependencies": {
     "@ladle/react": "^4.0.2",
+    "@types/node": "^20.11.16",
     "@types/react": "^18.2.43",
     "@types/react-dom": "^18.2.17",
     "@typescript-eslint/eslint-plugin": "^6.14.0",
@@ -28,6 +27,18 @@
     "eslint-plugin-react-refresh": "^0.4.5",
     "sass": "^1.70.0",
     "typescript": "^5.2.2",
-    "vite": "^5.0.8"
-  }
+    "vite": "^5.0.8",
+    "vite-plugin-dts": "^3.7.2"
+  },
+  "author": "Yaroslav Zhuravlov",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "bugs": {
+    "url": "https://github.com/yzhura/react-mouse-tooltip/issues"
+  },
+  "homepage": "https://github.com/yzhura/react-mouse-tooltip"
 }

@@ -50,10 +50,10 @@ const Tooltip = ({
 
   return (
     <div
+      {...wrapperDivProps}
       onMouseMove={handleOnMouseMove}
       onMouseEnter={handleOnMouseEnter}
       onMouseLeave={handleOnMouseLeave}
-      {...wrapperDivProps}
     >
       {children}
       {tooltipPortal}
