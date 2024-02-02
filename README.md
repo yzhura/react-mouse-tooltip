@@ -2,7 +2,7 @@
 
 React Mouse Tooltip is a react component that shows a tooltip that follows the user's mouse cursor. It supports different positions, colors, animations and custom content inside the tooltip.
 
-![React Mouse Tooltip Example GIF](./tooltip_example.gif)
+![React Mouse Tooltip Example GIF](https://i.ibb.co/jRn8j9k/tooltip-example.gif)
 
 ## Installation
 
